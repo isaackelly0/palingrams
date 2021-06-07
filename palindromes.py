@@ -1,6 +1,6 @@
 """Find palindromes in a dictionary file"""
 from load_dictionary import load
-word_list = load('read book for text file address')
+word_list = load('./lang/International/2of4brif.txt')
 pali_list = []
 
 for word in word_list:
